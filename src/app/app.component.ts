@@ -1,23 +1,16 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HeaderComponent } from './header/header.component';
-import { HomePageComponent } from './home-page/home-page.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  imports: [
-    CommonModule,
-    RouterOutlet,
-    NavBarComponent,
-    HeaderComponent,
-    HomePageComponent,
-  ],
+  styleUrl: './app.component.css',
+  imports: [RouterOutlet, NavBarComponent, FooterComponent],
 })
 export class AppComponent {
-  title = 'mcu-112-web-09130456-final';
+  title = 'mcu-112-web-12131441-final';
 }
