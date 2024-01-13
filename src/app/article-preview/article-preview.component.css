@@ -1,0 +1,75 @@
+:host {
+  display: block;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 1.5rem 0;
+}
+
+div.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.meta {
+  margin: 0 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+div.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+a.author {
+  color: #5cb85c;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+span.date {
+  color: #bbb;
+  font-size: 0.8rem;
+}
+
+button {
+  bottom: 1px solid #5cb85c;
+  border-radius: 0.2rem;
+  padding: 0.5rem 0.5rem;
+  color: #5cb85c;
+  background-color: transparent;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+}
+
+div.content {
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 3px;
+}
+
+div.content > p {
+  color: #999;
+  margin-top: 0;
+  font-weight: 300;
+  line-height: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+div.footer > span {
+  color: #999;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
