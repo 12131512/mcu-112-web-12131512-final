@@ -7,17 +7,18 @@
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
+  width: 1140px;
 }
 .container > div {
   outline: solid 1px red;
 }
-
-.articles-list {
+.articles.articles {
   padding-left: 15px;
   padding-right: 15px;
   flex: 0 0 75%;
 }
-.tags-list {
+
+.tags-sidebar {
   padding-left: 15px;
   padding-right: 15px;
   flex: 0 0 25%;

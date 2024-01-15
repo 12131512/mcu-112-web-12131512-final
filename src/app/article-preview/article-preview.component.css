@@ -68,8 +68,14 @@ div.content > p {
   margin-bottom: 1.5rem;
 }
 
+div.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 div.footer > span {
-  color: #999;
+  color: #bbb;
   font-size: 0.8rem;
   font-weight: 300;
 }
